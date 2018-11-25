@@ -8,7 +8,7 @@ function marks()
 				if(sub1a1<=10 && sub1a2<=10){
 					var avgsub1a=(sub1a1+sub1a2)/2;
 					sub1aat=avgsub1a;
-					//window.alert(sub1aat);
+					
 				}
 				else
 				{
@@ -24,7 +24,7 @@ function marks()
 				if(sub2a1<=10 && sub2a2<=10){
 					var avgsub2a=(sub2a1+sub2a2)/2;
 					sub2aat=Math.round(avgsub2a);
-					//window.alert(sub1aat);
+					
 				}
 				else
 				{
@@ -39,7 +39,7 @@ function marks()
 				if(sub3a1<=10 && sub3a2<=10){
 					var avgsub3a=(sub3a1+sub3a2)/2;
 					sub3aat=Math.round(avgsub3a);
-					//window.alert(sub1aat);
+					
 				}
 				else
 				{
@@ -54,7 +54,7 @@ function marks()
 				if(sub4a1<=10 && sub4a2<=10){
 					var avgsub4a=(sub4a1+sub4a2)/2;
 					sub4aat=Math.round(avgsub4a);
-					//window.alert(sub1aat);
+					
 				}
 				else
 				{
@@ -86,18 +86,13 @@ function marks()
 				if(sub6a1<=10 && sub6a2<=10){
 					var avgsub6a=(sub6a1+sub6a2)/2;
 					sub6aat=Math.round(avgsub6a);
-					//window.alert(sub1aat);
+					
 				}
 				else
 				{
 					window.alert("Please enter the correct Subject6 AAT marks marks");
 				}
-				//document.write("subject1:"+sub1aat);
-				//document.write("subject1:"+sub2aat);
-				//document.write("subject1:"+sub3aat);
-				//document.write("subject1:"+sub4aat);
-				//document.write("subject1:"+sub5aat);
-				//document.write("subject1:"+sub6aat);
+				
 				
 				
 				//midmarks sub1 calculation
@@ -129,14 +124,12 @@ function marks()
 				else{
 					window.alert("Please enter the correct Subject1 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att1= sel1.options[sel1.selectedIndex].value;
 				att1=parseInt(att1);
-				//window.alert(att1);
+				
 				var total1=Math.round(sub1aat+sub1mid+att1);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat1").innerHTML=sub1aat;
 				document.getElementById("pm1").innerHTML=sub1mid;
@@ -170,19 +163,17 @@ function marks()
 						sub2mm2=(sub2m1*7.5)/30;
 					}
 					sub2mid=Math.round(sub2mm1+sub2mm2);
-					//window.alert(sub2mid);
+					
 				}
 				else{
 					window.alert("Please enter the correct Subject2 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att2= sel2.options[sel2.selectedIndex].value;
 				att2=parseInt(att2);
-				//window.alert(att1);
+				
 				var total2=Math.round(sub2aat+sub2mid+att2);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat2").innerHTML=sub2aat;
 				document.getElementById("pm2").innerHTML=sub2mid;
@@ -216,19 +207,17 @@ function marks()
 						sub3mm2=(sub3m1*7.5)/30;
 					}
 					sub3mid=Math.round(sub3mm1+sub3mm2);
-					//window.alert(sub2mid);
+					
 				}
 				else{
 					window.alert("Please enter the correct Subject3 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att3= sel3.options[sel3.selectedIndex].value;
 				att3=parseInt(att3);
-				//window.alert(att1);
+				
 				var total3=Math.round(sub3aat+sub3mid+att3);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat3").innerHTML=sub3aat;
 				document.getElementById("pm3").innerHTML=sub3mid;
@@ -261,20 +250,17 @@ function marks()
 						sub4mm2=(sub4m1*7.5)/30;
 					}
 					sub4mid=Math.round(sub4mm1+sub4mm2);
-					//window.alert(sub2mid);
+					
 				}
 				else{
 					window.alert("Please enter the correct Subject4 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att4= sel4.options[sel4.selectedIndex].value;
 				att4=parseInt(att4);
-				//window.alert(att4);
-				//window.alert(att1);
+				
 				var total4=Math.round(sub4aat+sub4mid+att4);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat4").innerHTML=sub4aat;
 				document.getElementById("pm4").innerHTML=sub4mid;
@@ -309,20 +295,17 @@ function marks()
 						sub5mm2=(sub5m1*7.5)/30;
 					}
 					sub5mid=Math.round(sub5mm1+sub5mm2);
-					//window.alert(sub2mid);
+					
 				}
 				else{
 					window.alert("Please enter the correct Subject5 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att5= sel5.options[sel5.selectedIndex].value;
 				att5=parseInt(att5);
-				//window.alert(att5);
-				//window.alert(att1);
+				
 				var total5=Math.round(sub5aat+sub5mid+att5);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat5").innerHTML=sub5aat;
 				document.getElementById("pm5").innerHTML=sub5mid;
@@ -356,20 +339,17 @@ function marks()
 						sub6mm2=(sub6m1*7.5)/30;
 					}
 					sub6mid=Math.round(sub6mm1+sub6mm2);
-					//window.alert(sub2mid);
+					
 				}
 				else{
 					window.alert("Please enter the correct Subject6 MID marks marks");
 				}
-				//sub1=(sub1aat+sub1mid);
-				//window.alert(sub1mid);
-				//window.alert(sub1aat);
+				
 				var att6= sel6.options[sel6.selectedIndex].value;
 				att6=parseInt(att6);
-				//window.alert(att6);
-				//window.alert(att1);
+				
 				var total6=Math.round(sub6aat+sub6mid+att6);
-				//window.alert(total1);
+				
 				tbl2.hidden=false;
 				document.getElementById("pat6").innerHTML=sub6aat;
 				document.getElementById("pm6").innerHTML=sub6mid;

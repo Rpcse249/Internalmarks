@@ -6,7 +6,7 @@ function marks()
 				var sub1a2=document.getElementById("txtsub1aat2").value;
 				sub1a2=parseInt(sub1a2);
 				if(sub1a1<=10 && sub1a2<=10){
-					var avgsub1a=(sub1a1+sub1a2)/2;
+					var avgsub1a=Math.round((sub1a1+sub1a2)/2);
 					sub1aat=avgsub1a;
 					
 				}
@@ -22,7 +22,7 @@ function marks()
 				var sub2a2=document.getElementById("txtsub2aat2").value;
 				sub2a2=parseInt(sub2a2);
 				if(sub2a1<=10 && sub2a2<=10){
-					var avgsub2a=(sub2a1+sub2a2)/2;
+					var avgsub2a=Math.round((sub2a1+sub2a2)/2);
 					sub2aat=Math.round(avgsub2a);
 					
 				}
@@ -37,7 +37,7 @@ function marks()
 				var sub3a2=document.getElementById("txtsub3aat2").value;
 				sub3a2=parseInt(sub3a2);
 				if(sub3a1<=10 && sub3a2<=10){
-					var avgsub3a=(sub3a1+sub3a2)/2;
+					var avgsub3a=Math.round((sub3a1+sub3a2)/2);
 					sub3aat=Math.round(avgsub3a);
 					
 				}
@@ -52,7 +52,7 @@ function marks()
 				var sub4a2=document.getElementById("txtsub4aat2").value;
 				sub4a2=parseInt(sub4a2);
 				if(sub4a1<=10 && sub4a2<=10){
-					var avgsub4a=(sub4a1+sub4a2)/2;
+					var avgsub4a=Math.round(sub4a1+sub4a2)/2);
 					sub4aat=Math.round(avgsub4a);
 					
 				}
@@ -68,7 +68,7 @@ function marks()
 				var sub5a2=document.getElementById("txtsub5aat2").value;
 				sub5a2=parseInt(sub5a2);
 				if(sub5a1<=10 && sub5a2<=10){
-					var avgsub5a=(sub5a1+sub5a2)/2;
+					var avgsub5a=Math.round((sub5a1+sub5a2)/2);
 					sub5aat=Math.round(avgsub5a);
 					
 				}
@@ -84,7 +84,7 @@ function marks()
 				var sub6a2=document.getElementById("txtsub6aat2").value;
 				sub6a2=parseInt(sub6a2);
 				if(sub6a1<=10 && sub6a2<=10){
-					var avgsub6a=(sub6a1+sub6a2)/2;
+					var avgsub6a=Math.round((sub6a1+sub6a2)/2);
 					sub6aat=Math.round(avgsub6a);
 					
 				}

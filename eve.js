@@ -23,7 +23,7 @@ function marks()
 				sub2a2=parseInt(sub2a2);
 				if(sub2a1<=10 && sub2a2<=10){
 					var avgsub2a=Math.round((sub2a1+sub2a2)/2);
-					sub2aat=Math.round(avgsub2a);
+					sub2aat=(avgsub2a);
 					
 				}
 				else
@@ -38,7 +38,7 @@ function marks()
 				sub3a2=parseInt(sub3a2);
 				if(sub3a1<=10 && sub3a2<=10){
 					var avgsub3a=Math.round((sub3a1+sub3a2)/2);
-					sub3aat=Math.round(avgsub3a);
+					sub3aat=(avgsub3a);
 					
 				}
 				else
@@ -53,7 +53,7 @@ function marks()
 				sub4a2=parseInt(sub4a2);
 				if(sub4a1<=10 && sub4a2<=10){
 					var avgsub4a=Math.round(sub4a1+sub4a2)/2);
-					sub4aat=Math.round(avgsub4a);
+					sub4aat=(avgsub4a);
 					
 				}
 				else
@@ -69,7 +69,7 @@ function marks()
 				sub5a2=parseInt(sub5a2);
 				if(sub5a1<=10 && sub5a2<=10){
 					var avgsub5a=Math.round((sub5a1+sub5a2)/2);
-					sub5aat=Math.round(avgsub5a);
+					sub5aat=(avgsub5a);
 					
 				}
 				else
@@ -85,7 +85,7 @@ function marks()
 				sub6a2=parseInt(sub6a2);
 				if(sub6a1<=10 && sub6a2<=10){
 					var avgsub6a=Math.round((sub6a1+sub6a2)/2);
-					sub6aat=Math.round(avgsub6a);
+					sub6aat=(avgsub6a);
 					
 				}
 				else
@@ -128,7 +128,7 @@ function marks()
 				var att1= sel1.options[sel1.selectedIndex].value;
 				att1=parseInt(att1);
 				
-				var total1=Math.round(sub1aat+sub1mid+att1);
+				var total1=(sub1aat+sub1mid+att1);
 				
 				tbl2.hidden=false;
 				document.getElementById("pat1").innerHTML=sub1aat;
@@ -162,7 +162,7 @@ function marks()
 						sub2mm1=(sub2m2*17.5)/30;
 						sub2mm2=(sub2m1*7.5)/30;
 					}
-					sub2mid=Math.round(sub2mm1+sub2mm2);
+					sub2mid=(sub2mm1+sub2mm2);
 					
 				}
 				else{
@@ -172,7 +172,7 @@ function marks()
 				var att2= sel2.options[sel2.selectedIndex].value;
 				att2=parseInt(att2);
 				
-				var total2=Math.round(sub2aat+sub2mid+att2);
+				var total2=(sub2aat+sub2mid+att2);
 				
 				tbl2.hidden=false;
 				document.getElementById("pat2").innerHTML=sub2aat;
@@ -206,7 +206,7 @@ function marks()
 						sub3mm1=(sub3m2*17.5)/30;
 						sub3mm2=(sub3m1*7.5)/30;
 					}
-					sub3mid=Math.round(sub3mm1+sub3mm2);
+					sub3mid=(sub3mm1+sub3mm2);
 					
 				}
 				else{
@@ -216,7 +216,7 @@ function marks()
 				var att3= sel3.options[sel3.selectedIndex].value;
 				att3=parseInt(att3);
 				
-				var total3=Math.round(sub3aat+sub3mid+att3);
+				var total3=(sub3aat+sub3mid+att3);
 				
 				tbl2.hidden=false;
 				document.getElementById("pat3").innerHTML=sub3aat;
@@ -249,7 +249,7 @@ function marks()
 						sub4mm1=(sub4m2*17.5)/30;
 						sub4mm2=(sub4m1*7.5)/30;
 					}
-					sub4mid=Math.round(sub4mm1+sub4mm2);
+					sub4mid=(sub4mm1+sub4mm2);
 					
 				}
 				else{
@@ -294,7 +294,7 @@ function marks()
 						sub5mm1=(sub5m2*17.5)/30;
 						sub5mm2=(sub5m1*7.5)/30;
 					}
-					sub5mid=Math.round(sub5mm1+sub5mm2);
+					sub5mid=(sub5mm1+sub5mm2);
 					
 				}
 				else{
@@ -338,7 +338,7 @@ function marks()
 						sub6mm1=(sub6m2*17.5)/30;
 						sub6mm2=(sub6m1*7.5)/30;
 					}
-					sub6mid=Math.round(sub6mm1+sub6mm2);
+					sub6mid=(sub6mm1+sub6mm2);
 					
 				}
 				else{
@@ -348,7 +348,7 @@ function marks()
 				var att6= sel6.options[sel6.selectedIndex].value;
 				att6=parseInt(att6);
 				
-				var total6=Math.round(sub6aat+sub6mid+att6);
+				var total6=(sub6aat+sub6mid+att6);
 				
 				tbl2.hidden=false;
 				document.getElementById("pat6").innerHTML=sub6aat;
